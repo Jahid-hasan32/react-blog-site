@@ -12,7 +12,7 @@ const Sidebar = () => {
     const fetchData = async () => {
       try {
         // const response = await axios.get('http://127.0.0.1:8000/');
-        const response = await axios.get('http://jahidhasan.pythonanywhere.com/');
+        const response = await axios.get("http://jahidhasan.pythonanywhere.com/");
         setPopularBlogs(response.data);
       } catch (error) {
         console.error('Error fetching blog data:', error);
@@ -29,7 +29,7 @@ const Sidebar = () => {
     const fetchDataAuthor = async () => {
       try {
         // const res = await axios.get('http://127.0.0.1:8000/author/');
-        const res = await axios.get('http://jahidhasan.pythonanywhere.com/author/');
+        const res = await axios.get("http://jahidhasan.pythonanywhere.com/author/");
         setAuthor_data(res.data)
       } catch (error) {
         console.error("Error fatching author data:", error);
@@ -47,7 +47,7 @@ const Sidebar = () => {
     const fetchData = async () => {
       try {
         // const response = await axios.get('http://127.0.0.1:8000/');
-        const response = await axios.get('http://jahidhasan.pythonanywhere.com/');
+        const response = await axios.get("http://jahidhasan.pythonanywhere.com/");
         setBlogData(response.data);
       } catch (error) {
         console.error('Error fetching blog data:', error);

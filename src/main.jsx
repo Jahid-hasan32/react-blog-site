@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       {
         path: '/blogs/:id',
         element : <BlogDetail/>,
-        loader: ({params}) => fetch(`http://127.0.0.1:8000/${params.id}`)
+        loader: ({params}) => fetch(`http://jahidhasan.pythonanywhere.com/ ${params.id}`)
       },
       {
         path: '/category/:name',

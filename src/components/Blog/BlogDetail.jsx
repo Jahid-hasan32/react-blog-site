@@ -11,7 +11,7 @@ const BlogDetail = () => {
     const data = useLoaderData()
 
     // const baseURL = "http://127.0.0.1:8000/"
-    const baseURL = "http://jahidhasan.pythonanywhere.com/"
+    const baseURL =  "http://jahidhasan.pythonanywhere.com/"
 
     const { id, title, image, category, author, pub_date, reading_time, post, tags } = data;
 

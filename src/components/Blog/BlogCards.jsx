@@ -16,7 +16,7 @@ const BlogCards = ({ post }) => {
   const linkNumbers = [...Array(nPages + 1).keys()].slice(1);
 
   // const baseURL = "http://127.0.0.1:8000/"
-  const baseURL = "http://jahidhasan.pythonanywhere.com/"
+  const baseURL =  "http://jahidhasan.pythonanywhere.com/"
 
   return (
     <div>

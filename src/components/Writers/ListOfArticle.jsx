@@ -17,7 +17,7 @@ const ListOfArticle = () => {
     const fetchDataAuthor = async () => {
       try {
         // const res = await axios.get('http://127.0.0.1:8000/');
-        const res = await axios.get('http://jahidhasan.pythonanywhere.com/');
+        const res = await axios.get("http://jahidhasan.pythonanywhere.com/");
         setWriters_data(res.data)
       } catch (error) {
         console.error("Error fatching author data:", error);
@@ -37,7 +37,7 @@ const ListOfArticle = () => {
   const linkNumbers = [...Array(nPages + 1).keys()].slice(1);
 
   // const baseURL = "http://127.0.0.1:8000/"
-  const baseURL = "http://jahidhasan.pythonanywhere.com/"
+  const baseURL =  process.env.REACT_APP_API_URL
 
   return (
     <div className='container mt-20 max-w-7xl '>
