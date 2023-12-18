@@ -1,0 +1,15 @@
+
+
+@font-face {
+    font-family: 'font-regular';
+    src: url(../src/fonts/FN\ Mamun\ Bornolipi\ Unicode.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'font-italic';
+    src: url('../src/fonts/FN\ Mamun\ Bornolipi\ Unicode\ Italic.ttf') format('truetype');
+}
+
+.active {
+    @apply text-primary underline underline-offset-4
+}
