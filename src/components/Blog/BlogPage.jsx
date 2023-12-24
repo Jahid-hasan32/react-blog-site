@@ -11,7 +11,7 @@ const BlogPage = () => {
     const fetchData = async () => {
       try {
         // const response = await axios.get('http://127.0.0.1:8000/');
-        const response = await axios.get('http://jahidhasan.pythonanywhere.com/');
+        const response = await axios.get('https://jahidhasan.pythonanywhere.com/');
         setBlogData(response.data);
       } catch (error) {
         console.error('Error fetching blog data:', error);

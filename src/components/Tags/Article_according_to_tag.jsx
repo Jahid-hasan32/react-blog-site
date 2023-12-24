@@ -16,7 +16,7 @@ const ListOfArticle = () => {
   useEffect(() => {
     const fetchDataAuthor = async () => {
       try {
-        const res = await axios.get('http://jahidhasan.pythonanywhere.com/');
+        const res = await axios.get('https://jahidhasan.pythonanywhere.com/');
         // const res = await axios.get('http://127.0.0.1:8000/');
         setTags_data(res.data)
       } catch (error) {
